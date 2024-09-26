@@ -1,0 +1,46 @@
+.container{
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 40px 50px;
+  width: 650px;
+  gap: 20px;
+  color: #262626;
+  background-color: white;
+}
+.horizontal{
+  height: 2px;
+  background-color: #707070;
+  border: none;
+}
+.question{
+  font-size: 27px;
+  font-weight: 500;
+}
+.container ul li{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding-left: 15px;
+  border:1px solid #686868;
+  height: 70px;
+  font-size: 20px;
+}
+.container button{
+  margin: auto;
+  width: 250px;
+  height: 60px;
+  background: #3eabf5;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;border-radius: 8px;
+  cursor: pointer;
+}
+.container .index{
+  font-size: 20px;
+  margin: auto;
+}

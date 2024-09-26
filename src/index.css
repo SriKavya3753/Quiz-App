@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(#D8c7FF,#3eabf5);
+  height: 100vh;
+  font-family:Poppins;
+}
+.container .correct{
+  background: #fff;
+  border-color: #0de451;
+}
+.container .wrong{
+  background: #fff;
+  border-color: #f41515;
+}
